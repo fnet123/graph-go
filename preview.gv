@@ -1,0 +1,1353 @@
+strict digraph {
+archive_tar [label="archive/tar"]
+archive_zip [label="archive/zip"]
+bufio [label="bufio"]
+bytes [label="bytes"]
+compress_bzip2 [label="compress/bzip2"]
+compress_flate [label="compress/flate"]
+compress_gzip [label="compress/gzip"]
+compress_lzw [label="compress/lzw"]
+compress_zlib [label="compress/zlib"]
+container_heap [label="container/heap"]
+container_list [label="container/list"]
+container_ring [label="container/ring"]
+context [label="context"]
+crypto [label="crypto"]
+crypto_aes [label="crypto/aes"]
+crypto_cipher [label="crypto/cipher"]
+crypto_des [label="crypto/des"]
+crypto_dsa [label="crypto/dsa"]
+crypto_ecdsa [label="crypto/ecdsa"]
+crypto_elliptic [label="crypto/elliptic"]
+crypto_hmac [label="crypto/hmac"]
+crypto_internal_cipherhw [label="crypto/internal/cipherhw"]
+crypto_md5 [label="crypto/md5"]
+crypto_rand [label="crypto/rand"]
+crypto_rc4 [label="crypto/rc4"]
+crypto_rsa [label="crypto/rsa"]
+crypto_sha1 [label="crypto/sha1"]
+crypto_sha256 [label="crypto/sha256"]
+crypto_sha512 [label="crypto/sha512"]
+crypto_subtle [label="crypto/subtle"]
+crypto_tls [label="crypto/tls"]
+crypto_x509 [label="crypto/x509"]
+crypto_x509_pkix [label="crypto/x509/pkix"]
+database_sql [label="database/sql"]
+database_sql_driver [label="database/sql/driver"]
+debug_dwarf [label="debug/dwarf"]
+debug_elf [label="debug/elf"]
+debug_gosym [label="debug/gosym"]
+debug_macho [label="debug/macho"]
+debug_pe [label="debug/pe"]
+debug_plan9obj [label="debug/plan9obj"]
+encoding [label="encoding"]
+encoding_ascii85 [label="encoding/ascii85"]
+encoding_asn1 [label="encoding/asn1"]
+encoding_base32 [label="encoding/base32"]
+encoding_base64 [label="encoding/base64"]
+encoding_binary [label="encoding/binary"]
+encoding_csv [label="encoding/csv"]
+encoding_gob [label="encoding/gob"]
+encoding_hex [label="encoding/hex"]
+encoding_json [label="encoding/json"]
+encoding_pem [label="encoding/pem"]
+encoding_xml [label="encoding/xml"]
+errors [label="errors"]
+expvar [label="expvar"]
+flag [label="flag"]
+fmt [label="fmt"]
+go_ast [label="go/ast"]
+go_build [label="go/build"]
+go_constant [label="go/constant"]
+go_doc [label="go/doc"]
+go_format [label="go/format"]
+go_importer [label="go/importer"]
+go_internal_gccgoimporter [label="go/internal/gccgoimporter"]
+go_internal_gcimporter [label="go/internal/gcimporter"]
+go_internal_srcimporter [label="go/internal/srcimporter"]
+go_parser [label="go/parser"]
+go_printer [label="go/printer"]
+go_scanner [label="go/scanner"]
+go_token [label="go/token"]
+go_types [label="go/types"]
+hash [label="hash"]
+hash_adler32 [label="hash/adler32"]
+hash_crc32 [label="hash/crc32"]
+hash_crc64 [label="hash/crc64"]
+hash_fnv [label="hash/fnv"]
+html [label="html"]
+html_template [label="html/template"]
+image [label="image"]
+image_color [label="image/color"]
+image_color_palette [label="image/color/palette"]
+image_draw [label="image/draw"]
+image_gif [label="image/gif"]
+image_internal_imageutil [label="image/internal/imageutil"]
+image_jpeg [label="image/jpeg"]
+image_png [label="image/png"]
+index_suffixarray [label="index/suffixarray"]
+internal_cpu [label="internal/cpu"]
+internal_nettrace [label="internal/nettrace"]
+internal_poll [label="internal/poll"]
+internal_race [label="internal/race"]
+internal_singleflight [label="internal/singleflight"]
+internal_syscall_windows [label="internal/syscall/windows"]
+internal_syscall_windows_registry [label="internal/syscall/windows/registry"]
+internal_syscall_windows_sysdll [label="internal/syscall/windows/sysdll"]
+internal_testenv [label="internal/testenv"]
+internal_trace [label="internal/trace"]
+io [label="io"]
+io_ioutil [label="io/ioutil"]
+log [label="log"]
+log_syslog [label="log/syslog"]
+math [label="math"]
+math_big [label="math/big"]
+math_bits [label="math/bits"]
+math_cmplx [label="math/cmplx"]
+math_rand [label="math/rand"]
+mime [label="mime"]
+mime_multipart [label="mime/multipart"]
+mime_quotedprintable [label="mime/quotedprintable"]
+net [label="net"]
+net_http [label="net/http"]
+net_http_cgi [label="net/http/cgi"]
+net_http_cookiejar [label="net/http/cookiejar"]
+net_http_fcgi [label="net/http/fcgi"]
+net_http_httptest [label="net/http/httptest"]
+net_http_httptrace [label="net/http/httptrace"]
+net_http_httputil [label="net/http/httputil"]
+net_http_internal [label="net/http/internal"]
+net_http_pprof [label="net/http/pprof"]
+net_internal_socktest [label="net/internal/socktest"]
+net_mail [label="net/mail"]
+net_rpc [label="net/rpc"]
+net_rpc_jsonrpc [label="net/rpc/jsonrpc"]
+net_smtp [label="net/smtp"]
+net_textproto [label="net/textproto"]
+net_url [label="net/url"]
+os [label="os"]
+os_exec [label="os/exec"]
+os_signal [label="os/signal"]
+os_user [label="os/user"]
+path [label="path"]
+path_filepath [label="path/filepath"]
+plugin [label="plugin"]
+reflect [label="reflect"]
+regexp [label="regexp"]
+regexp_syntax [label="regexp/syntax"]
+runtime [label="runtime"]
+runtime_cgo [label="runtime/cgo"]
+runtime_debug [label="runtime/debug"]
+runtime_internal_atomic [label="runtime/internal/atomic"]
+runtime_internal_sys [label="runtime/internal/sys"]
+runtime_pprof [label="runtime/pprof"]
+runtime_pprof_internal_profile [label="runtime/pprof/internal/profile"]
+runtime_race [label="runtime/race"]
+runtime_trace [label="runtime/trace"]
+sort [label="sort"]
+strconv [label="strconv"]
+strings [label="strings"]
+sync [label="sync"]
+sync_atomic [label="sync/atomic"]
+syscall [label="syscall"]
+testing [label="testing"]
+testing_internal_testdeps [label="testing/internal/testdeps"]
+testing_iotest [label="testing/iotest"]
+testing_quick [label="testing/quick"]
+text_scanner [label="text/scanner"]
+text_tabwriter [label="text/tabwriter"]
+text_template [label="text/template"]
+text_template_parse [label="text/template/parse"]
+time [label="time"]
+unicode [label="unicode"]
+unicode_utf16 [label="unicode/utf16"]
+unicode_utf8 [label="unicode/utf8"]
+unsafe [label="unsafe"]
+vendor_golang_org_x_crypto_chacha20poly1305 [label="vendor/golang_org/x/crypto/chacha20poly1305"]
+vendor_golang_org_x_crypto_chacha20poly1305_internal_chacha20 [label="vendor/golang_org/x/crypto/chacha20poly1305/internal/chacha20"]
+vendor_golang_org_x_crypto_curve25519 [label="vendor/golang_org/x/crypto/curve25519"]
+vendor_golang_org_x_crypto_poly1305 [label="vendor/golang_org/x/crypto/poly1305"]
+vendor_golang_org_x_net_http2_hpack [label="vendor/golang_org/x/net/http2/hpack"]
+vendor_golang_org_x_net_idna [label="vendor/golang_org/x/net/idna"]
+vendor_golang_org_x_net_lex_httplex [label="vendor/golang_org/x/net/lex/httplex"]
+vendor_golang_org_x_net_nettest [label="vendor/golang_org/x/net/nettest"]
+vendor_golang_org_x_net_proxy [label="vendor/golang_org/x/net/proxy"]
+vendor_golang_org_x_net_route [label="vendor/golang_org/x/net/route"]
+vendor_golang_org_x_text_secure [label="vendor/golang_org/x/text/secure"]
+vendor_golang_org_x_text_secure_bidirule [label="vendor/golang_org/x/text/secure/bidirule"]
+vendor_golang_org_x_text_transform [label="vendor/golang_org/x/text/transform"]
+vendor_golang_org_x_text_unicode [label="vendor/golang_org/x/text/unicode"]
+vendor_golang_org_x_text_unicode_bidi [label="vendor/golang_org/x/text/unicode/bidi"]
+vendor_golang_org_x_text_unicode_norm [label="vendor/golang_org/x/text/unicode/norm"]
+bytes -> archive_tar
+errors -> archive_tar
+fmt -> archive_tar
+io -> archive_tar
+io_ioutil -> archive_tar
+math -> archive_tar
+os -> archive_tar
+path -> archive_tar
+sort -> archive_tar
+strconv -> archive_tar
+strings -> archive_tar
+syscall -> archive_tar
+time -> archive_tar
+bufio -> archive_zip
+compress_flate -> archive_zip
+encoding_binary -> archive_zip
+errors -> archive_zip
+fmt -> archive_zip
+hash -> archive_zip
+hash_crc32 -> archive_zip
+io -> archive_zip
+io_ioutil -> archive_zip
+os -> archive_zip
+path -> archive_zip
+sync -> archive_zip
+time -> archive_zip
+unicode_utf8 -> archive_zip
+bytes -> bufio
+errors -> bufio
+io -> bufio
+unicode_utf8 -> bufio
+errors -> bytes
+internal_cpu -> bytes
+io -> bytes
+unicode -> bytes
+unicode_utf8 -> bytes
+bufio -> compress_bzip2
+io -> compress_bzip2
+sort -> compress_bzip2
+bufio -> compress_flate
+fmt -> compress_flate
+io -> compress_flate
+math -> compress_flate
+math_bits -> compress_flate
+sort -> compress_flate
+strconv -> compress_flate
+sync -> compress_flate
+bufio -> compress_gzip
+compress_flate -> compress_gzip
+encoding_binary -> compress_gzip
+errors -> compress_gzip
+fmt -> compress_gzip
+hash_crc32 -> compress_gzip
+io -> compress_gzip
+time -> compress_gzip
+bufio -> compress_lzw
+errors -> compress_lzw
+fmt -> compress_lzw
+io -> compress_lzw
+bufio -> compress_zlib
+compress_flate -> compress_zlib
+errors -> compress_zlib
+fmt -> compress_zlib
+hash -> compress_zlib
+hash_adler32 -> compress_zlib
+io -> compress_zlib
+sort -> container_heap
+errors -> context
+fmt -> context
+reflect -> context
+sync -> context
+time -> context
+hash -> crypto
+io -> crypto
+strconv -> crypto
+crypto_cipher -> crypto_aes
+crypto_internal_cipherhw -> crypto_aes
+crypto_subtle -> crypto_aes
+errors -> crypto_aes
+strconv -> crypto_aes
+crypto_subtle -> crypto_cipher
+errors -> crypto_cipher
+io -> crypto_cipher
+runtime -> crypto_cipher
+unsafe -> crypto_cipher
+crypto_cipher -> crypto_des
+encoding_binary -> crypto_des
+strconv -> crypto_des
+errors -> crypto_dsa
+io -> crypto_dsa
+math_big -> crypto_dsa
+crypto -> crypto_ecdsa
+crypto_aes -> crypto_ecdsa
+crypto_cipher -> crypto_ecdsa
+crypto_elliptic -> crypto_ecdsa
+crypto_sha512 -> crypto_ecdsa
+encoding_asn1 -> crypto_ecdsa
+errors -> crypto_ecdsa
+io -> crypto_ecdsa
+math_big -> crypto_ecdsa
+io -> crypto_elliptic
+math_big -> crypto_elliptic
+sync -> crypto_elliptic
+crypto_subtle -> crypto_hmac
+hash -> crypto_hmac
+crypto -> crypto_md5
+hash -> crypto_md5
+runtime -> crypto_md5
+unsafe -> crypto_md5
+bufio -> crypto_rand
+crypto_aes -> crypto_rand
+crypto_cipher -> crypto_rand
+errors -> crypto_rand
+io -> crypto_rand
+math_big -> crypto_rand
+os -> crypto_rand
+runtime -> crypto_rand
+sync -> crypto_rand
+syscall -> crypto_rand
+time -> crypto_rand
+strconv -> crypto_rc4
+bytes -> crypto_rsa
+crypto -> crypto_rsa
+crypto_rand -> crypto_rsa
+crypto_subtle -> crypto_rsa
+errors -> crypto_rsa
+hash -> crypto_rsa
+io -> crypto_rsa
+math -> crypto_rsa
+math_big -> crypto_rsa
+crypto -> crypto_sha1
+hash -> crypto_sha1
+internal_cpu -> crypto_sha1
+crypto -> crypto_sha256
+hash -> crypto_sha256
+internal_cpu -> crypto_sha256
+crypto -> crypto_sha512
+hash -> crypto_sha512
+internal_cpu -> crypto_sha512
+bytes -> crypto_tls
+container_list -> crypto_tls
+crypto -> crypto_tls
+crypto_aes -> crypto_tls
+crypto_cipher -> crypto_tls
+crypto_des -> crypto_tls
+crypto_ecdsa -> crypto_tls
+crypto_elliptic -> crypto_tls
+crypto_hmac -> crypto_tls
+crypto_internal_cipherhw -> crypto_tls
+crypto_md5 -> crypto_tls
+crypto_rand -> crypto_tls
+crypto_rc4 -> crypto_tls
+crypto_rsa -> crypto_tls
+crypto_sha1 -> crypto_tls
+crypto_sha256 -> crypto_tls
+crypto_sha512 -> crypto_tls
+crypto_subtle -> crypto_tls
+crypto_x509 -> crypto_tls
+encoding_asn1 -> crypto_tls
+encoding_pem -> crypto_tls
+errors -> crypto_tls
+fmt -> crypto_tls
+vendor_golang_org_x_crypto_chacha20poly1305 -> crypto_tls
+vendor_golang_org_x_crypto_curve25519 -> crypto_tls
+hash -> crypto_tls
+io -> crypto_tls
+io_ioutil -> crypto_tls
+math_big -> crypto_tls
+net -> crypto_tls
+strconv -> crypto_tls
+strings -> crypto_tls
+sync -> crypto_tls
+sync_atomic -> crypto_tls
+time -> crypto_tls
+C -> crypto_x509
+bufio -> crypto_x509
+bytes -> crypto_x509
+crypto -> crypto_x509
+crypto_aes -> crypto_x509
+crypto_cipher -> crypto_x509
+crypto_des -> crypto_x509
+crypto_dsa -> crypto_x509
+crypto_ecdsa -> crypto_x509
+crypto_elliptic -> crypto_x509
+crypto_md5 -> crypto_x509
+crypto_rsa -> crypto_x509
+crypto_sha1 -> crypto_x509
+crypto_sha256 -> crypto_x509
+crypto_sha512 -> crypto_x509
+crypto_x509_pkix -> crypto_x509
+encoding_asn1 -> crypto_x509
+encoding_hex -> crypto_x509
+encoding_pem -> crypto_x509
+errors -> crypto_x509
+fmt -> crypto_x509
+io -> crypto_x509
+io_ioutil -> crypto_x509
+math_big -> crypto_x509
+net -> crypto_x509
+os -> crypto_x509
+os_exec -> crypto_x509
+os_user -> crypto_x509
+path_filepath -> crypto_x509
+runtime -> crypto_x509
+strconv -> crypto_x509
+strings -> crypto_x509
+sync -> crypto_x509
+time -> crypto_x509
+unicode_utf8 -> crypto_x509
+unsafe -> crypto_x509
+encoding_asn1 -> crypto_x509_pkix
+math_big -> crypto_x509_pkix
+time -> crypto_x509_pkix
+context -> database_sql
+database_sql_driver -> database_sql
+errors -> database_sql
+fmt -> database_sql
+io -> database_sql
+reflect -> database_sql
+runtime -> database_sql
+sort -> database_sql
+strconv -> database_sql
+sync -> database_sql
+sync_atomic -> database_sql
+time -> database_sql
+unicode -> database_sql
+unicode_utf8 -> database_sql
+context -> database_sql_driver
+errors -> database_sql_driver
+fmt -> database_sql_driver
+reflect -> database_sql_driver
+strconv -> database_sql_driver
+time -> database_sql_driver
+encoding_binary -> debug_dwarf
+errors -> debug_dwarf
+fmt -> debug_dwarf
+io -> debug_dwarf
+path -> debug_dwarf
+sort -> debug_dwarf
+strconv -> debug_dwarf
+strings -> debug_dwarf
+bytes -> debug_elf
+compress_zlib -> debug_elf
+debug_dwarf -> debug_elf
+encoding_binary -> debug_elf
+errors -> debug_elf
+fmt -> debug_elf
+io -> debug_elf
+os -> debug_elf
+strconv -> debug_elf
+strings -> debug_elf
+bytes -> debug_gosym
+encoding_binary -> debug_gosym
+fmt -> debug_gosym
+strconv -> debug_gosym
+strings -> debug_gosym
+sync -> debug_gosym
+bytes -> debug_macho
+debug_dwarf -> debug_macho
+encoding_binary -> debug_macho
+fmt -> debug_macho
+io -> debug_macho
+os -> debug_macho
+strconv -> debug_macho
+debug_dwarf -> debug_pe
+encoding_binary -> debug_pe
+fmt -> debug_pe
+io -> debug_pe
+os -> debug_pe
+strconv -> debug_pe
+encoding_binary -> debug_plan9obj
+errors -> debug_plan9obj
+fmt -> debug_plan9obj
+io -> debug_plan9obj
+os -> debug_plan9obj
+io -> encoding_ascii85
+strconv -> encoding_ascii85
+errors -> encoding_asn1
+fmt -> encoding_asn1
+math -> encoding_asn1
+math_big -> encoding_asn1
+reflect -> encoding_asn1
+strconv -> encoding_asn1
+strings -> encoding_asn1
+time -> encoding_asn1
+unicode_utf8 -> encoding_asn1
+bytes -> encoding_base32
+io -> encoding_base32
+strconv -> encoding_base32
+strings -> encoding_base32
+io -> encoding_base64
+strconv -> encoding_base64
+errors -> encoding_binary
+io -> encoding_binary
+math -> encoding_binary
+reflect -> encoding_binary
+bufio -> encoding_csv
+bytes -> encoding_csv
+errors -> encoding_csv
+fmt -> encoding_csv
+io -> encoding_csv
+strings -> encoding_csv
+unicode -> encoding_csv
+unicode_utf8 -> encoding_csv
+bufio -> encoding_gob
+encoding -> encoding_gob
+encoding_binary -> encoding_gob
+errors -> encoding_gob
+fmt -> encoding_gob
+io -> encoding_gob
+math -> encoding_gob
+math_bits -> encoding_gob
+os -> encoding_gob
+reflect -> encoding_gob
+sync -> encoding_gob
+sync_atomic -> encoding_gob
+unicode -> encoding_gob
+unicode_utf8 -> encoding_gob
+bytes -> encoding_hex
+errors -> encoding_hex
+fmt -> encoding_hex
+io -> encoding_hex
+bytes -> encoding_json
+encoding -> encoding_json
+encoding_base64 -> encoding_json
+errors -> encoding_json
+fmt -> encoding_json
+io -> encoding_json
+math -> encoding_json
+reflect -> encoding_json
+runtime -> encoding_json
+sort -> encoding_json
+strconv -> encoding_json
+strings -> encoding_json
+sync -> encoding_json
+sync_atomic -> encoding_json
+unicode -> encoding_json
+unicode_utf16 -> encoding_json
+unicode_utf8 -> encoding_json
+bytes -> encoding_pem
+encoding_base64 -> encoding_pem
+errors -> encoding_pem
+io -> encoding_pem
+sort -> encoding_pem
+strings -> encoding_pem
+bufio -> encoding_xml
+bytes -> encoding_xml
+encoding -> encoding_xml
+errors -> encoding_xml
+fmt -> encoding_xml
+io -> encoding_xml
+reflect -> encoding_xml
+strconv -> encoding_xml
+strings -> encoding_xml
+sync -> encoding_xml
+unicode -> encoding_xml
+unicode_utf8 -> encoding_xml
+bytes -> expvar
+encoding_json -> expvar
+fmt -> expvar
+log -> expvar
+math -> expvar
+net_http -> expvar
+os -> expvar
+runtime -> expvar
+sort -> expvar
+strconv -> expvar
+sync -> expvar
+sync_atomic -> expvar
+errors -> flag
+fmt -> flag
+io -> flag
+os -> flag
+reflect -> flag
+sort -> flag
+strconv -> flag
+time -> flag
+errors -> fmt
+io -> fmt
+math -> fmt
+os -> fmt
+reflect -> fmt
+strconv -> fmt
+sync -> fmt
+unicode_utf8 -> fmt
+bytes -> go_ast
+fmt -> go_ast
+go_scanner -> go_ast
+go_token -> go_ast
+io -> go_ast
+os -> go_ast
+reflect -> go_ast
+sort -> go_ast
+strconv -> go_ast
+strings -> go_ast
+unicode -> go_ast
+unicode_utf8 -> go_ast
+bufio -> go_build
+bytes -> go_build
+errors -> go_build
+fmt -> go_build
+go_ast -> go_build
+go_doc -> go_build
+go_parser -> go_build
+go_token -> go_build
+io -> go_build
+io_ioutil -> go_build
+log -> go_build
+os -> go_build
+path -> go_build
+path_filepath -> go_build
+runtime -> go_build
+sort -> go_build
+strconv -> go_build
+strings -> go_build
+unicode -> go_build
+unicode_utf8 -> go_build
+fmt -> go_constant
+go_token -> go_constant
+math -> go_constant
+math_big -> go_constant
+strconv -> go_constant
+unicode_utf8 -> go_constant
+go_ast -> go_doc
+go_token -> go_doc
+io -> go_doc
+path -> go_doc
+regexp -> go_doc
+sort -> go_doc
+strconv -> go_doc
+strings -> go_doc
+text_template -> go_doc
+unicode -> go_doc
+unicode_utf8 -> go_doc
+bytes -> go_format
+fmt -> go_format
+go_ast -> go_format
+go_parser -> go_format
+go_printer -> go_format
+go_token -> go_format
+io -> go_format
+strings -> go_format
+go_build -> go_importer
+go_internal_gccgoimporter -> go_importer
+go_internal_gcimporter -> go_importer
+go_internal_srcimporter -> go_importer
+go_token -> go_importer
+go_types -> go_importer
+io -> go_importer
+runtime -> go_importer
+bufio -> go_internal_gccgoimporter
+bytes -> go_internal_gccgoimporter
+debug_elf -> go_internal_gccgoimporter
+errors -> go_internal_gccgoimporter
+fmt -> go_internal_gccgoimporter
+go_constant -> go_internal_gccgoimporter
+go_token -> go_internal_gccgoimporter
+go_types -> go_internal_gccgoimporter
+io -> go_internal_gccgoimporter
+os -> go_internal_gccgoimporter
+os_exec -> go_internal_gccgoimporter
+path_filepath -> go_internal_gccgoimporter
+strconv -> go_internal_gccgoimporter
+strings -> go_internal_gccgoimporter
+text_scanner -> go_internal_gccgoimporter
+bufio -> go_internal_gcimporter
+encoding_binary -> go_internal_gcimporter
+fmt -> go_internal_gcimporter
+go_build -> go_internal_gcimporter
+go_constant -> go_internal_gcimporter
+go_token -> go_internal_gcimporter
+go_types -> go_internal_gcimporter
+io -> go_internal_gcimporter
+io_ioutil -> go_internal_gcimporter
+os -> go_internal_gcimporter
+path_filepath -> go_internal_gcimporter
+sort -> go_internal_gcimporter
+strconv -> go_internal_gcimporter
+strings -> go_internal_gcimporter
+sync -> go_internal_gcimporter
+unicode -> go_internal_gcimporter
+unicode_utf8 -> go_internal_gcimporter
+fmt -> go_internal_srcimporter
+go_ast -> go_internal_srcimporter
+go_build -> go_internal_srcimporter
+go_parser -> go_internal_srcimporter
+go_token -> go_internal_srcimporter
+go_types -> go_internal_srcimporter
+path_filepath -> go_internal_srcimporter
+sync -> go_internal_srcimporter
+bytes -> go_parser
+errors -> go_parser
+fmt -> go_parser
+go_ast -> go_parser
+go_scanner -> go_parser
+go_token -> go_parser
+io -> go_parser
+io_ioutil -> go_parser
+os -> go_parser
+path_filepath -> go_parser
+strconv -> go_parser
+strings -> go_parser
+unicode -> go_parser
+bytes -> go_printer
+fmt -> go_printer
+go_ast -> go_printer
+go_token -> go_printer
+io -> go_printer
+os -> go_printer
+strconv -> go_printer
+strings -> go_printer
+text_tabwriter -> go_printer
+unicode -> go_printer
+unicode_utf8 -> go_printer
+bytes -> go_scanner
+fmt -> go_scanner
+go_token -> go_scanner
+io -> go_scanner
+path_filepath -> go_scanner
+sort -> go_scanner
+strconv -> go_scanner
+unicode -> go_scanner
+unicode_utf8 -> go_scanner
+fmt -> go_token
+sort -> go_token
+strconv -> go_token
+sync -> go_token
+bytes -> go_types
+container_heap -> go_types
+fmt -> go_types
+go_ast -> go_types
+go_constant -> go_types
+go_parser -> go_types
+go_token -> go_types
+io -> go_types
+math -> go_types
+sort -> go_types
+strconv -> go_types
+strings -> go_types
+unicode -> go_types
+io -> hash
+hash -> hash_adler32
+hash -> hash_crc32
+internal_cpu -> hash_crc32
+sync -> hash_crc32
+unsafe -> hash_crc32
+hash -> hash_crc64
+hash -> hash_fnv
+strings -> html
+unicode_utf8 -> html
+bytes -> html_template
+encoding_json -> html_template
+fmt -> html_template
+html -> html_template
+io -> html_template
+io_ioutil -> html_template
+path_filepath -> html_template
+reflect -> html_template
+strings -> html_template
+sync -> html_template
+text_template -> html_template
+text_template_parse -> html_template
+unicode -> html_template
+unicode_utf8 -> html_template
+bufio -> image
+errors -> image
+image_color -> image
+io -> image
+strconv -> image
+image_color -> image_color_palette
+image -> image_draw
+image_color -> image_draw
+image_internal_imageutil -> image_draw
+bufio -> image_gif
+bytes -> image_gif
+compress_lzw -> image_gif
+errors -> image_gif
+fmt -> image_gif
+image -> image_gif
+image_color -> image_gif
+image_color_palette -> image_gif
+image_draw -> image_gif
+io -> image_gif
+image -> image_internal_imageutil
+bufio -> image_jpeg
+errors -> image_jpeg
+image -> image_jpeg
+image_color -> image_jpeg
+image_internal_imageutil -> image_jpeg
+io -> image_jpeg
+bufio -> image_png
+compress_zlib -> image_png
+encoding_binary -> image_png
+fmt -> image_png
+hash -> image_png
+hash_crc32 -> image_png
+image -> image_png
+image_color -> image_png
+io -> image_png
+strconv -> image_png
+bytes -> index_suffixarray
+encoding_binary -> index_suffixarray
+io -> index_suffixarray
+regexp -> index_suffixarray
+sort -> index_suffixarray
+errors -> internal_poll
+io -> internal_poll
+sync -> internal_poll
+sync_atomic -> internal_poll
+syscall -> internal_poll
+time -> internal_poll
+unsafe -> internal_poll
+unsafe -> internal_race
+sync -> internal_singleflight
+errors -> internal_testenv
+flag -> internal_testenv
+os -> internal_testenv
+os_exec -> internal_testenv
+path_filepath -> internal_testenv
+runtime -> internal_testenv
+strconv -> internal_testenv
+strings -> internal_testenv
+testing -> internal_testenv
+bufio -> internal_trace
+bytes -> internal_trace
+fmt -> internal_trace
+io -> internal_trace
+math_rand -> internal_trace
+os -> internal_trace
+os_exec -> internal_trace
+sort -> internal_trace
+strconv -> internal_trace
+strings -> internal_trace
+unsafe -> internal_trace
+errors -> io
+sync -> io
+bytes -> io_ioutil
+io -> io_ioutil
+os -> io_ioutil
+path_filepath -> io_ioutil
+sort -> io_ioutil
+strconv -> io_ioutil
+sync -> io_ioutil
+time -> io_ioutil
+fmt -> log
+io -> log
+os -> log
+runtime -> log
+sync -> log
+time -> log
+errors -> log_syslog
+fmt -> log_syslog
+log -> log_syslog
+net -> log_syslog
+os -> log_syslog
+strings -> log_syslog
+sync -> log_syslog
+time -> log_syslog
+internal_cpu -> math
+unsafe -> math
+bytes -> math_big
+encoding_binary -> math_big
+errors -> math_big
+fmt -> math_big
+io -> math_big
+math -> math_big
+math_bits -> math_big
+math_rand -> math_big
+strconv -> math_big
+strings -> math_big
+sync -> math_big
+math -> math_cmplx
+math -> math_rand
+sync -> math_rand
+bufio -> mime
+bytes -> mime
+encoding_base64 -> mime
+errors -> mime
+fmt -> mime
+io -> mime
+os -> mime
+sort -> mime
+strings -> mime
+sync -> mime
+unicode -> mime
+unicode_utf8 -> mime
+bufio -> mime_multipart
+bytes -> mime_multipart
+crypto_rand -> mime_multipart
+errors -> mime_multipart
+fmt -> mime_multipart
+io -> mime_multipart
+io_ioutil -> mime_multipart
+mime -> mime_multipart
+mime_quotedprintable -> mime_multipart
+net_textproto -> mime_multipart
+os -> mime_multipart
+sort -> mime_multipart
+strings -> mime_multipart
+bufio -> mime_quotedprintable
+bytes -> mime_quotedprintable
+fmt -> mime_quotedprintable
+io -> mime_quotedprintable
+C -> net
+context -> net
+errors -> net
+vendor_golang_org_x_net_route -> net
+internal_nettrace -> net
+internal_poll -> net
+internal_singleflight -> net
+io -> net
+math_rand -> net
+os -> net
+runtime -> net
+sort -> net
+sync -> net
+sync_atomic -> net
+syscall -> net
+time -> net
+unsafe -> net
+bufio -> net_http
+bytes -> net_http
+compress_gzip -> net_http
+container_list -> net_http
+context -> net_http
+crypto_rand -> net_http
+crypto_tls -> net_http
+encoding_base64 -> net_http
+encoding_binary -> net_http
+errors -> net_http
+fmt -> net_http
+vendor_golang_org_x_net_http2_hpack -> net_http
+vendor_golang_org_x_net_idna -> net_http
+vendor_golang_org_x_net_lex_httplex -> net_http
+vendor_golang_org_x_net_proxy -> net_http
+io -> net_http
+io_ioutil -> net_http
+log -> net_http
+math -> net_http
+mime -> net_http
+mime_multipart -> net_http
+net -> net_http
+net_http_httptrace -> net_http
+net_http_internal -> net_http
+net_textproto -> net_http
+net_url -> net_http
+os -> net_http
+path -> net_http
+path_filepath -> net_http
+reflect -> net_http
+runtime -> net_http
+sort -> net_http
+strconv -> net_http
+strings -> net_http
+sync -> net_http
+sync_atomic -> net_http
+time -> net_http
+unicode_utf8 -> net_http
+bufio -> net_http_cgi
+crypto_tls -> net_http_cgi
+errors -> net_http_cgi
+fmt -> net_http_cgi
+io -> net_http_cgi
+io_ioutil -> net_http_cgi
+log -> net_http_cgi
+net -> net_http_cgi
+net_http -> net_http_cgi
+net_url -> net_http_cgi
+os -> net_http_cgi
+os_exec -> net_http_cgi
+path_filepath -> net_http_cgi
+regexp -> net_http_cgi
+runtime -> net_http_cgi
+strconv -> net_http_cgi
+strings -> net_http_cgi
+errors -> net_http_cookiejar
+fmt -> net_http_cookiejar
+net -> net_http_cookiejar
+net_http -> net_http_cookiejar
+net_url -> net_http_cookiejar
+sort -> net_http_cookiejar
+strings -> net_http_cookiejar
+sync -> net_http_cookiejar
+time -> net_http_cookiejar
+unicode_utf8 -> net_http_cookiejar
+bufio -> net_http_fcgi
+bytes -> net_http_fcgi
+context -> net_http_fcgi
+encoding_binary -> net_http_fcgi
+errors -> net_http_fcgi
+fmt -> net_http_fcgi
+io -> net_http_fcgi
+io_ioutil -> net_http_fcgi
+net -> net_http_fcgi
+net_http -> net_http_fcgi
+net_http_cgi -> net_http_fcgi
+os -> net_http_fcgi
+strings -> net_http_fcgi
+sync -> net_http_fcgi
+time -> net_http_fcgi
+bufio -> net_http_httptest
+bytes -> net_http_httptest
+crypto_tls -> net_http_httptest
+crypto_x509 -> net_http_httptest
+flag -> net_http_httptest
+fmt -> net_http_httptest
+io -> net_http_httptest
+io_ioutil -> net_http_httptest
+log -> net_http_httptest
+net -> net_http_httptest
+net_http -> net_http_httptest
+net_http_internal -> net_http_httptest
+os -> net_http_httptest
+strconv -> net_http_httptest
+strings -> net_http_httptest
+sync -> net_http_httptest
+time -> net_http_httptest
+context -> net_http_httptrace
+crypto_tls -> net_http_httptrace
+internal_nettrace -> net_http_httptrace
+net -> net_http_httptrace
+reflect -> net_http_httptrace
+time -> net_http_httptrace
+bufio -> net_http_httputil
+bytes -> net_http_httputil
+context -> net_http_httputil
+errors -> net_http_httputil
+fmt -> net_http_httputil
+io -> net_http_httputil
+io_ioutil -> net_http_httputil
+log -> net_http_httputil
+net -> net_http_httputil
+net_http -> net_http_httputil
+net_http_internal -> net_http_httputil
+net_textproto -> net_http_httputil
+net_url -> net_http_httputil
+strings -> net_http_httputil
+sync -> net_http_httputil
+time -> net_http_httputil
+bufio -> net_http_internal
+bytes -> net_http_internal
+errors -> net_http_internal
+fmt -> net_http_internal
+io -> net_http_internal
+bufio -> net_http_pprof
+bytes -> net_http_pprof
+fmt -> net_http_pprof
+html_template -> net_http_pprof
+io -> net_http_pprof
+log -> net_http_pprof
+net_http -> net_http_pprof
+os -> net_http_pprof
+runtime -> net_http_pprof
+runtime_pprof -> net_http_pprof
+runtime_trace -> net_http_pprof
+strconv -> net_http_pprof
+strings -> net_http_pprof
+time -> net_http_pprof
+fmt -> net_internal_socktest
+sync -> net_internal_socktest
+syscall -> net_internal_socktest
+bufio -> net_mail
+bytes -> net_mail
+errors -> net_mail
+fmt -> net_mail
+io -> net_mail
+log -> net_mail
+mime -> net_mail
+net_textproto -> net_mail
+strings -> net_mail
+time -> net_mail
+unicode_utf8 -> net_mail
+bufio -> net_rpc
+encoding_gob -> net_rpc
+errors -> net_rpc
+fmt -> net_rpc
+html_template -> net_rpc
+io -> net_rpc
+log -> net_rpc
+net -> net_rpc
+net_http -> net_rpc
+reflect -> net_rpc
+sort -> net_rpc
+strings -> net_rpc
+sync -> net_rpc
+unicode -> net_rpc
+unicode_utf8 -> net_rpc
+encoding_json -> net_rpc_jsonrpc
+errors -> net_rpc_jsonrpc
+fmt -> net_rpc_jsonrpc
+io -> net_rpc_jsonrpc
+net -> net_rpc_jsonrpc
+net_rpc -> net_rpc_jsonrpc
+sync -> net_rpc_jsonrpc
+crypto_hmac -> net_smtp
+crypto_md5 -> net_smtp
+crypto_tls -> net_smtp
+encoding_base64 -> net_smtp
+errors -> net_smtp
+fmt -> net_smtp
+io -> net_smtp
+net -> net_smtp
+net_textproto -> net_smtp
+strings -> net_smtp
+bufio -> net_textproto
+bytes -> net_textproto
+fmt -> net_textproto
+io -> net_textproto
+io_ioutil -> net_textproto
+net -> net_textproto
+strconv -> net_textproto
+strings -> net_textproto
+sync -> net_textproto
+bytes -> net_url
+errors -> net_url
+fmt -> net_url
+sort -> net_url
+strconv -> net_url
+strings -> net_url
+errors -> os
+internal_poll -> os
+io -> os
+runtime -> os
+sync -> os
+sync_atomic -> os
+syscall -> os
+time -> os
+bytes -> os_exec
+context -> os_exec
+errors -> os_exec
+io -> os_exec
+os -> os_exec
+path_filepath -> os_exec
+runtime -> os_exec
+strconv -> os_exec
+strings -> os_exec
+sync -> os_exec
+syscall -> os_exec
+os -> os_signal
+sync -> os_signal
+syscall -> os_signal
+C -> os_user
+fmt -> os_user
+strconv -> os_user
+strings -> os_user
+sync -> os_user
+syscall -> os_user
+unsafe -> os_user
+errors -> path
+strings -> path
+unicode_utf8 -> path
+errors -> path_filepath
+os -> path_filepath
+runtime -> path_filepath
+sort -> path_filepath
+strings -> path_filepath
+unicode_utf8 -> path_filepath
+C -> plugin
+errors -> plugin
+sync -> plugin
+unsafe -> plugin
+math -> reflect
+runtime -> reflect
+strconv -> reflect
+sync -> reflect
+unicode -> reflect
+unicode_utf8 -> reflect
+unsafe -> reflect
+bytes -> regexp
+io -> regexp
+regexp_syntax -> regexp
+sort -> regexp
+strconv -> regexp
+strings -> regexp
+sync -> regexp
+unicode -> regexp
+unicode_utf8 -> regexp
+bytes -> regexp_syntax
+sort -> regexp_syntax
+strconv -> regexp_syntax
+strings -> regexp_syntax
+unicode -> regexp_syntax
+unicode_utf8 -> regexp_syntax
+runtime_internal_atomic -> runtime
+runtime_internal_sys -> runtime
+unsafe -> runtime
+C -> runtime_cgo
+unsafe -> runtime_cgo
+os -> runtime_debug
+runtime -> runtime_debug
+sort -> runtime_debug
+time -> runtime_debug
+unsafe -> runtime_internal_atomic
+bufio -> runtime_pprof
+bytes -> runtime_pprof
+compress_gzip -> runtime_pprof
+context -> runtime_pprof
+encoding_binary -> runtime_pprof
+errors -> runtime_pprof
+fmt -> runtime_pprof
+io -> runtime_pprof
+io_ioutil -> runtime_pprof
+math -> runtime_pprof
+os -> runtime_pprof
+runtime -> runtime_pprof
+sort -> runtime_pprof
+strconv -> runtime_pprof
+strings -> runtime_pprof
+sync -> runtime_pprof
+text_tabwriter -> runtime_pprof
+time -> runtime_pprof
+unsafe -> runtime_pprof
+bufio -> runtime_pprof_internal_profile
+bytes -> runtime_pprof_internal_profile
+compress_gzip -> runtime_pprof_internal_profile
+errors -> runtime_pprof_internal_profile
+fmt -> runtime_pprof_internal_profile
+io -> runtime_pprof_internal_profile
+io_ioutil -> runtime_pprof_internal_profile
+math -> runtime_pprof_internal_profile
+regexp -> runtime_pprof_internal_profile
+sort -> runtime_pprof_internal_profile
+strconv -> runtime_pprof_internal_profile
+strings -> runtime_pprof_internal_profile
+time -> runtime_pprof_internal_profile
+io -> runtime_trace
+runtime -> runtime_trace
+reflect -> sort
+errors -> strconv
+math -> strconv
+unicode_utf8 -> strconv
+errors -> strings
+internal_cpu -> strings
+io -> strings
+unicode -> strings
+unicode_utf8 -> strings
+internal_race -> sync
+runtime -> sync
+sync_atomic -> sync
+unsafe -> sync
+unsafe -> sync_atomic
+errors -> syscall
+internal_race -> syscall
+runtime -> syscall
+sync -> syscall
+unsafe -> syscall
+bytes -> testing
+errors -> testing
+flag -> testing
+fmt -> testing
+internal_race -> testing
+io -> testing
+os -> testing
+runtime -> testing
+runtime_debug -> testing
+runtime_trace -> testing
+sort -> testing
+strconv -> testing
+strings -> testing
+sync -> testing
+sync_atomic -> testing
+time -> testing
+io -> testing_internal_testdeps
+regexp -> testing_internal_testdeps
+runtime_pprof -> testing_internal_testdeps
+errors -> testing_iotest
+io -> testing_iotest
+log -> testing_iotest
+flag -> testing_quick
+fmt -> testing_quick
+math -> testing_quick
+math_rand -> testing_quick
+reflect -> testing_quick
+strings -> testing_quick
+time -> testing_quick
+bytes -> text_scanner
+fmt -> text_scanner
+io -> text_scanner
+os -> text_scanner
+unicode -> text_scanner
+unicode_utf8 -> text_scanner
+bytes -> text_tabwriter
+io -> text_tabwriter
+unicode_utf8 -> text_tabwriter
+bytes -> text_template
+errors -> text_template
+fmt -> text_template
+io -> text_template
+io_ioutil -> text_template
+net_url -> text_template
+path_filepath -> text_template
+reflect -> text_template
+runtime -> text_template
+sort -> text_template
+strings -> text_template
+sync -> text_template
+text_template_parse -> text_template
+unicode -> text_template
+unicode_utf8 -> text_template
+bytes -> text_template_parse
+fmt -> text_template_parse
+runtime -> text_template_parse
+strconv -> text_template_parse
+strings -> text_template_parse
+unicode -> text_template_parse
+unicode_utf8 -> text_template_parse
+errors -> time
+runtime -> time
+sync -> time
+syscall -> time
+crypto_cipher -> vendor_golang_org_x_crypto_chacha20poly1305
+encoding_binary -> vendor_golang_org_x_crypto_chacha20poly1305
+errors -> vendor_golang_org_x_crypto_chacha20poly1305
+vendor_golang_org_x_crypto_chacha20poly1305_internal_chacha20 -> vendor_golang_org_x_crypto_chacha20poly1305
+vendor_golang_org_x_crypto_poly1305 -> vendor_golang_org_x_crypto_chacha20poly1305
+encoding_binary -> vendor_golang_org_x_crypto_chacha20poly1305_internal_chacha20
+crypto_subtle -> vendor_golang_org_x_crypto_poly1305
+bytes -> vendor_golang_org_x_net_http2_hpack
+errors -> vendor_golang_org_x_net_http2_hpack
+fmt -> vendor_golang_org_x_net_http2_hpack
+io -> vendor_golang_org_x_net_http2_hpack
+sync -> vendor_golang_org_x_net_http2_hpack
+fmt -> vendor_golang_org_x_net_idna
+vendor_golang_org_x_text_secure_bidirule -> vendor_golang_org_x_net_idna
+vendor_golang_org_x_text_unicode_norm -> vendor_golang_org_x_net_idna
+math -> vendor_golang_org_x_net_idna
+strings -> vendor_golang_org_x_net_idna
+unicode_utf8 -> vendor_golang_org_x_net_idna
+vendor_golang_org_x_net_idna -> vendor_golang_org_x_net_lex_httplex
+net -> vendor_golang_org_x_net_lex_httplex
+strings -> vendor_golang_org_x_net_lex_httplex
+unicode_utf8 -> vendor_golang_org_x_net_lex_httplex
+bytes -> vendor_golang_org_x_net_nettest
+encoding_binary -> vendor_golang_org_x_net_nettest
+io -> vendor_golang_org_x_net_nettest
+io_ioutil -> vendor_golang_org_x_net_nettest
+math_rand -> vendor_golang_org_x_net_nettest
+net -> vendor_golang_org_x_net_nettest
+runtime -> vendor_golang_org_x_net_nettest
+sync -> vendor_golang_org_x_net_nettest
+testing -> vendor_golang_org_x_net_nettest
+time -> vendor_golang_org_x_net_nettest
+errors -> vendor_golang_org_x_net_proxy
+io -> vendor_golang_org_x_net_proxy
+net -> vendor_golang_org_x_net_proxy
+net_url -> vendor_golang_org_x_net_proxy
+os -> vendor_golang_org_x_net_proxy
+strconv -> vendor_golang_org_x_net_proxy
+strings -> vendor_golang_org_x_net_proxy
+errors -> vendor_golang_org_x_net_route
+os -> vendor_golang_org_x_net_route
+runtime -> vendor_golang_org_x_net_route
+syscall -> vendor_golang_org_x_net_route
+unsafe -> vendor_golang_org_x_net_route
+errors -> vendor_golang_org_x_text_secure_bidirule
+vendor_golang_org_x_text_transform -> vendor_golang_org_x_text_secure_bidirule
+vendor_golang_org_x_text_unicode_bidi -> vendor_golang_org_x_text_secure_bidirule
+unicode_utf8 -> vendor_golang_org_x_text_secure_bidirule
+bytes -> vendor_golang_org_x_text_transform
+errors -> vendor_golang_org_x_text_transform
+io -> vendor_golang_org_x_text_transform
+unicode_utf8 -> vendor_golang_org_x_text_transform
+container_list -> vendor_golang_org_x_text_unicode_bidi
+fmt -> vendor_golang_org_x_text_unicode_bidi
+log -> vendor_golang_org_x_text_unicode_bidi
+sort -> vendor_golang_org_x_text_unicode_bidi
+unicode_utf8 -> vendor_golang_org_x_text_unicode_bidi
+fmt -> vendor_golang_org_x_text_unicode_norm
+vendor_golang_org_x_text_transform -> vendor_golang_org_x_text_unicode_norm
+io -> vendor_golang_org_x_text_unicode_norm
+unicode_utf8 -> vendor_golang_org_x_text_unicode_norm
+}

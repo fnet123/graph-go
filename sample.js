@@ -1,6 +1,8 @@
 ! function(){
     let json = transData(DATAS)
     console.log(json)
+
+    makeGV(DATAS)
     
     let myChart = echarts.init(document.getElementById('chart-panel'))
     myChart.hideLoading();
@@ -134,4 +136,44 @@
                 nodes,edges
             }
         }
+    
+    /* 生成 graphviz 图.需要把输出单独保存为 .gv 文件,并使用 graphviz 打开渲染. */
+    function makeGV(datas){
+        let gv = `strict digraph {\n`
+
+        /* 存储依赖路径信息. */
+        let edges = []
+        
+        /* 存储基础节点信息. */
+        let nodes = []
+
+        datas.map((data,idx)=>{
+            let itemId = cleanImportPath(data.ImportPath)
+
+            nodes.push(`${itemId} [label="${data.ImportPath}"]`)
+
+            if(data.Imports){
+                data.Imports.map((importItem)=>{
+                    let sourceItemId = cleanImportPath(importItem)
+
+                    edges.push(`${sourceItemId} -> ${itemId}`)
+                })
+            }
+        })
+
+        nodes.map((item)=>{
+            gv += item+'\n'
+        })
+        edges.map((item)=>{
+            gv += item+'\n'
+        })
+        gv += `}`
+
+        console.log(gv)
+    }
+
+    /* 去除 ImportPath 中的 / . 等特殊符号. */
+    function cleanImportPath(aPath){
+        return aPath.replace(/[\/|\.]/g, "_")
+    }
 }()
